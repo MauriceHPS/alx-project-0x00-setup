@@ -3,6 +3,7 @@ import React from "react";
 import HOUSE_IMAGE from "@/public/assets/images/house.png";
 import STAR_IMAGE from "@/public/assets/images/star.png";
 import Pill from "./Pill";
+import Image from "next/image";
 
 type CardProps = {
   className: string;
