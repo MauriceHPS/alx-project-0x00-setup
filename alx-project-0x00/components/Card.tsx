@@ -5,15 +5,7 @@ import STAR_IMAGE from "@/public/assets/images/star.png";
 import Pill from "./Pill";
 import Image from "next/image";
 
-type CardProps = {
-  className: string;
-  src: string;
-  width: number;
-  height: number;
-  alt?: string;
-};
-
-const Card: React.FC<CardProps> = ({ className, src, width, height, alt }) => {
+const Card: React.FC = () => {
   return (
     <>
       <div className="h-[422px] w-[378.56px] cursor-pointer hover:shadow-md hover:rounded-lg ">
